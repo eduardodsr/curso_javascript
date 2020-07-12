@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09</title>
+</head>
+<body>
+    <script>
+        alert ("Questão de múltipla escolha. Escolha uma letra: A, B, C ou D.")
+        
+        var questao = prompt("Qual é a capital do Brasil? A) Rio de Janeiro B) São Paulo C) Minas Gerais D) Brasilia")
+        
+        questao = (questao.toUpperCase()); // Utilizado o método toUpperCase(). O método toUpperCase() retorna o valor da string chamada convertida para maiúscula.
+        // Ao utilizar o método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+
+        alert("Sua resposta foi: "+questao);
+                
+        switch (questao){
+            case "A" :
+                alert ("Resposta errada");
+            break
+            case "B" :
+                alert ("Resposta errada");
+            break
+            case "C" :
+                alert ("Resposta errada");
+            break
+            case "D" :
+                alert ("Resposta certa");
+            break
+            default:
+                alert("Digite um valor válido!")
+
+        }
+    </script>
+</body>
+</html>

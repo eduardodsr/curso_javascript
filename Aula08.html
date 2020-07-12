@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08-  Tarefa 08 - Eduardo da Silva Rodrigues</title>
+ </head>
+<!-- 
+Tarefa 008
+Olá! Bom, vocês já fizeram anteriormente a tarefa dos times, certo?
+Que tal agora dizer qual foi o time vencedor, ou se foi um empate? Boa sorte!
+Data de entrega	segunda, 1 Jun 2020, 17:00
+-->
+
+
+<body>
+        <script>                                    
+                var time_casa = prompt("Digite nome do time da casa: ");
+
+                var gols_time_casa= prompt("O " + time_casa  + " fez quantos gols? ");
+                
+                var time_visitante = prompt("Digite nome do time visitante: ");
+
+                var gols_time_visitante= prompt("O " + time_visitante  + " fez quantos gols? ");
+                
+                alert("O placar do jogo foi " + time_casa + " " + gols_time_casa + " X " + time_visitante + " " + gols_time_visitante + ".");
+
+                if (gols_time_casa > gols_time_visitante){
+                    alert("Ganhou o " + time_casa)
+                }
+               
+                else if (gols_time_casa < gols_time_visitante) {
+                    alert("Ganhou o " + time_visitante)
+                }
+                else if (gols_time_casa == gols_time_visitante) {
+                    alert("Empate")
+                }
+        </script>
+
+</body>
+</html>

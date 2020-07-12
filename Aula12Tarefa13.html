@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula 12 - Tarefa 12 - Eduardo da Silva Rodrigues </title>
+    <!-- 
+        Par ou ímpar;
+        Tabuada;
+        Resultado do jogo e time vencedor;
+        Alistamento.
+     -->
+
+    <button onclick="parImpar()"> Par ou ímpar </button>
+    <button onclick="tabuada()"> Tabuada </button>
+    <button onclick="resultadoJogo()"> Resultado do jogo </button>
+    <button onclick="alistamento()"> Alistamento </button>
+
+    <style>
+       body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 30px; }
+    </style> 
+
+</head>
+<body>    
+    <script>    
+
+        function parImpar() {
+            let numero = Number(window.prompt('Digite um número: '))
+            let tipo
+            if (numero % 2 == 0) {
+             tipo = ("PAR")
+            } 
+            else {
+             tipo = ("ÍMPAR")
+            }
+            alert("O número " + numero + " que foi digitado é " + tipo + "!")  
+        }
+
+        function tabuada() {
+            var num = parseInt(prompt("Digite um número para visualizar a tabuada: "))
+            var i
+            var resultado
+            document.write("<br>") 
+            document.write("<br>")              
+            alert("Tabuada de " +num)
+            document.write("<br>")   
+
+            for (i = 1; i<10 ; i++){
+                resultado = num * i;
+                document.write(i + " X " +num + " = " + resultado + "<br>");
+            }
+            document.write("<br>")
+            document.write('<a href="' + document.referrer + '">Voltar</a>'); // Voltar a página anterior
+        }                                 
+          
+        function resultadoJogo() {
+            var time_casa = prompt("Digite nome do time da casa: ");
+            var gols_time_casa= prompt("O " + time_casa  + " fez quantos gols? ");
+            var time_visitante = prompt("Digite nome do time visitante: ");
+            var gols_time_visitante= prompt("O " + time_visitante  + " fez quantos gols? ");
+            alert("O placar do jogo foi " + time_casa + " " + gols_time_casa + " X " + time_visitante + " " + gols_time_visitante + ".");
+            
+            if (gols_time_casa > gols_time_visitante) {
+                alert("Ganhou o " + time_casa + ".")
+            }
+            else if (gols_time_casa < gols_time_visitante) {
+                alert("Ganhou o " + time_visitante + ".")
+            }
+            else if (gols_time_casa == gols_time_visitante) {
+                alert("Empate" + ".")
+            }
+        }
+
+        function alistamento() {
+    
+            var sexo = prompt("Qual é o seu sexo? Responda M (Masculino) ou F (Feminino) ? ")                 
+            sexo = (sexo.toUpperCase()) // método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+                    
+            switch (sexo) {
+                case "F":    
+                // alert("Você é maior de idade?: Você respondeu: " + idade+"!")                    
+                alert ("Você por ser mulher, não precisa ser alistar.")             
+               
+                break
+
+                case "M":    
+                    var idade = prompt("Você é maior de idade? Responda S (Sim) ou N (Não) ? ")  
+                    idade = (idade.toUpperCase())  
+                    var alistou = prompt("Você já se alistou? Responda S (Sim) ou N (Não) ? ")
+                    alistou = (alistou.toUpperCase())      
+            
+                    if (idade != "S") {     // (idade)  != (é diferente)  (Você é maior de idade?)             
+                        alert("Você é homem, tem menos de 18 anos e não precisa se alistar.")    // menor de 18 anos
+                    }
+                    else if (alistou == "N") {                      
+                        alert("Você é maior de idade e não se alistou, você precisa ser alistar.")       // maior de 18 anos, mais não se alistou                    
+                    }                   
+                    else {                       
+                        alert("Você não precisa ser alistar, pois você é maior de idade, também já se alistou")                      
+                    }                
+                break                       
+                default:
+                alert("Digite um valor válido!")
+            }
+
+        }     
+          
+                       
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  O número digitado é par ou ímpar? </title>
+    <!-- Aula 10 - Tarefa 119 - Eduardo da Silva Rodrigues -->
+ 
+</head>
+<body>
+
+    <script>
+
+              
+                let numero = Number(window.prompt('Digite um número: '))
+        
+                let tipo
+                    if (numero % 2 == 0) 
+                    {
+                    tipo = ("PAR")
+                    } 
+                    else 
+                    {
+                    tipo = ("ÍMPAR")
+                    }
+    
+                    alert("O número " + numero + " que foi digitado é " + tipo + "!")     
+                      
+            
+                    var div = numero % 2;
+                    if(div == 0){
+				        alert(" É divisivel por 2 ");
+			        }
+                    else{
+                        alert(" Não é divisivel por 2 ");	
+                    }          
+
+                    var div = numero % 3;
+                    if(div == 0){
+				        alert(" É divisivel por 3 ");
+			        }
+                    else{
+                        alert(" Não é divisivel por 3 ");	
+                    }                       
+                    
+                       
+
+    </script>    
+
+
+</body>
+</html>

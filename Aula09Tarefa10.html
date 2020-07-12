@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09 - Tarefa 10 - Eduardo da Silva Rodrigues</title>
+    <!-- 
+    Tarefa 010
+    Bom, a ideia será perguntar se o sexo da pessoa é masculino ou feminino, se ela é maior de idade ou não, e se ela já se alistou ou não.
+    Caso a pessoa seja do sexo masculino, maior de idade e não tenha se alistado, 
+    o sistema deverá apresentar um alert dizendo que ela deve se alistar. 
+    Caso contrário, o sistema deverá dizer que a pessoa não precisa se alistar e dizer o motivo, 
+    como por exemplo: ser mulher, ser menor de idade, ou os dois juntos.
+     -->
+</head>
+<body>
+    <script>            
+        var sexo = prompt("Qual é o seu sexo? Responda H ou M ? ");
+        var idade = prompt("Você é maior de idade? Responda S ou N ? ");             
+
+        sexo = (sexo.toUpperCase()); // método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+        idade = (idade.toUpperCase());
+        
+        
+        // alert("Qual é o seu sexo? Você respondeu: " + sexo +"!");        // Validar o que o usuário digitou
+        // alert("Você é maior de idade?: Você respondeu: " + idade+"!");   // Validar o que o usuário digitou
+        // alert("Você se alistou? Você respondeu: " + alistou+"!");        // Validar o que o usuário digitou
+
+        switch (sexo){
+            case "M":    
+                alert("Você é maior de idade?: Você respondeu: " + idade+"!");                     
+                alert ("Você por ser mulher, não precisa ser alistar.");                
+                
+            break
+
+            case "H":      
+                    var alistou = prompt("Você já se alistou? Responda S ou N ? "); 
+                    alistou = (alistou.toUpperCase());      
+            
+                    if (idade != "S"){
+                        // (idade)  != (é diferente)  (Você é maior de idade?) 
+                                                             
+                        // alert("Você é maior de idade?: Você respondeu: " + idade+"!");
+                        // alert("Você se alistou? Você respondeu: " + alistou+"!");  
+
+                        alert("Você é homem, tem menos de 18 anos e não precisa se alistar.")    // menor de 18 anos
+                    }
+                    else if (alistou == "N"){                        
+                        // alert("Você é maior de idade?: Você respondeu: " + idade+"!");
+                        // alert("Você se alistou? Você respondeu: " + alistou+"!"); 
+                        
+                        alert("Você é maior de idade e não se alistou, você precisa ser alistar.")       // maior de 18 anos, mais não se alistou                    
+                    }                     
+
+                    else {                        
+                        // alert("Você é maior de idade?: Você respondeu: " + idade+"!");
+                        // alert("Você se alistou? Você respondeu: " + alistou+"!");  
+
+                        alert("Você não precisa ser alistar, pois você é maior de idade, também já se alistou")                        
+
+                    }                
+            break                       
+            default:
+                alert("Digite um valor válido!")
+        }
+         
+        
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula 12 - Tarefa 12 - Eduardo da Silva Rodrigues </title>  
+    <button onclick="nome()">nome </button>
+    <button onclick="sobrenome()">sobrenome </button>
+    <style>
+       body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 30px; }
+    </style>  
+</head>
+<body>    
+    <script>    
+
+        function nome(){
+    
+            var nome = prompt("Qual é o seu nome? ");
+                      
+            while (nome == "" || nome == null){   // enquanto o nome for vazio ou nulo, ele vai alert para inserir o nome.
+                alert(nome);
+                alert ("Digite um nome válido!");
+                var nome = prompt("Qual é o seu nome? ");
+            }
+        }
+
+        function sobrenome(){
+ 
+            var sobrenome = prompt("Qual é o seu sobrenome? ");
+                      
+            while (sobrenome == "" || sobrenome == null){   // enquanto o sobrenome for vazio ou nulo, ele vai alert para inserir o nome.
+                alert(sobrenome);
+                alert ("Digite um nome válido!");
+                var sobrenome = prompt("Qual é o seu sobrenome? ");
+            } 
+        }   
+                       
+    </script>
+</body>
+</html>
+

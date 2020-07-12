@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 14 - Eduardo da Silva Rodrigues</title>
+
+    <button onclick="produto1()"> produto1 </button>
+    <button onclick="produto2()"> produto2 </button>
+    <button onclick="produto3()"> produto3 </button>
+    <button onclick="produto4()"> produto4 </button>
+    
+    <style>
+       body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 15px; }
+    </style> 
+
+</head>
+<body>
+
+    <script>
+
+        function produto1() {           
+
+            var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+
+            var valorTotalCompraProdutos = Number(prompt("Digite o valor Total da Compra dos Produtos? "))
+            
+            var formaPagamento = prompt("O pagamento será em cartão ou em dinheiro? Responda C (Cartão ou D (dinheiro) ? ")                 
+            
+            formaPagamento = (formaPagamento.toUpperCase()) 
+            // método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+                
+            if ( formaPagamento == "C"){
+                alert("Você selecionou a forma de pagamento em Cartão")
+                var tipoPagamento = prompt("O pagamento será em online ou presencial? Responda L (Online) ou P (Presencial) ? ")
+                tipoPagamento = (tipoPagamento.toUpperCase()) 
+            }
+            else{
+                alert("Você selecionou a forma de pagamento em Dinheiro")                
+            }
+            switch (tipoPagamento) {
+                case "L":    
+                    var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+                    var numeroCartao =  Number(prompt("Digite o número do cartão? Informar os 16 números: "))
+                    var validadeCartao =  Number(prompt("Digite a válidade? Informar os 4 números no formato MM/AA: "))
+                    var codSegCartao =  Number(prompt("Digite o código de segurança? Informar os 3 números: "))
+
+                    while (numeroCartao.length > 16) {
+                        alert ("Número de cartão inválido");
+                    }                     
+                    while (validadeCartao.length > 4) {
+                        alert ("Validade do cartão inválido");
+                    }    
+                    while (codSegCartao.length > 3) {
+                        alert ("Validade do cartão inválido");
+                    }                
+                    alert(" O valor Total da Compra cartão foi " + valorTotalCompraProdutos)
+                break
+
+                case "P":    
+                    var troco = prompt("É necessário troco? Responda S (SIM) ou N (Não) ? ")
+                    troco = (troco.toUpperCase()) 
+
+                    while ( troco == "S"){
+                        var trocoPergunta = prompt("Quantos reais seria o troco?   ")
+                        alert(troco);
+                    }
+                    
+                    while ( troco > valorTotalCompraProdutos )  {
+                        alert("O valor do troco está maior que o valor total da compra dos produtos ")
+                    }
+                        
+                    alert(" O valor Total da Compra em dinheiro foi" + valorTotalCompraProdutos)
+                          
+                break
+
+                default:
+                alert("Digite um valor válido!")
+            }
+
+
+        }
+
+        function produto2() {           
+
+            var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+
+            var valorTotalCompraProdutos = Number(prompt("Digite o valor Total da Compra dos Produtos? "))
+
+            var formaPagamento = prompt("O pagamento será em cartão ou em dinheiro? Responda C (Cartão ou D (dinheiro) ? ")                 
+
+            formaPagamento = (formaPagamento.toUpperCase()) 
+            // método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+                
+            if ( formaPagamento == "C"){
+                alert("Você selecionou a forma de pagamento em Cartão")
+                var tipoPagamento = prompt("O pagamento será em online ou presencial? Responda L (Online) ou P (Presencial) ? ")
+                tipoPagamento = (tipoPagamento.toUpperCase()) 
+            }
+            else{
+                alert("Você selecionou a forma de pagamento em Dinheiro")                
+            }
+            switch (tipoPagamento) {
+                case "L":    
+                    var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+                    var numeroCartao =  Number(prompt("Digite o número do cartão? Informar os 16 números: "))
+                    var validadeCartao =  Number(prompt("Digite a válidade? Informar os 4 números no formato MM/AA: "))
+                    var codSegCartao =  Number(prompt("Digite o código de segurança? Informar os 3 números: "))
+
+                    while (numeroCartao.length > 16) {
+                        alert ("Número de cartão inválido");
+                    }                     
+                    while (validadeCartao.length > 4) {
+                        alert ("Validade do cartão inválido");
+                    }    
+                    while (codSegCartao.length > 3) {
+                        alert ("Validade do cartão inválido");
+                    }                
+                    alert(" O valor Total da Compra cartão foi " + valorTotalCompraProdutos)
+                break
+
+                case "P":    
+                    var troco = prompt("É necessário troco? Responda S (SIM) ou N (Não) ? ")
+                    troco = (troco.toUpperCase()) 
+
+                    while ( troco == "S"){
+                        var trocoPergunta = prompt("Quantos reais seria o troco?   ")
+                        alert(troco);
+                    }
+                    
+                    while ( troco > valorTotalCompraProdutos )  {
+                        alert("O valor do troco está maior que o valor total da compra dos produtos ")
+                    }
+                        
+                    alert(" O valor Total da Compra em dinheiro foi" + valorTotalCompraProdutos)
+                        
+                break
+
+                default:
+                alert("Digite um valor válido!")
+            }
+
+        }
+
+        function produto3() {           
+
+            var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+
+            var valorTotalCompraProdutos = Number(prompt("Digite o valor Total da Compra dos Produtos? "))
+
+            var formaPagamento = prompt("O pagamento será em cartão ou em dinheiro? Responda C (Cartão ou D (dinheiro) ? ")                 
+
+            formaPagamento = (formaPagamento.toUpperCase()) 
+            // método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+                
+            if ( formaPagamento == "C"){
+                alert("Você selecionou a forma de pagamento em Cartão")
+                var tipoPagamento = prompt("O pagamento será em online ou presencial? Responda L (Online) ou P (Presencial) ? ")
+                tipoPagamento = (tipoPagamento.toUpperCase()) 
+            }
+            else{
+                alert("Você selecionou a forma de pagamento em Dinheiro")                
+            }
+            switch (tipoPagamento) {
+                case "L":    
+                    var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+                    var numeroCartao =  Number(prompt("Digite o número do cartão? Informar os 16 números: "))
+                    var validadeCartao =  Number(prompt("Digite a válidade? Informar os 4 números no formato MM/AA: "))
+                    var codSegCartao =  Number(prompt("Digite o código de segurança? Informar os 3 números: "))
+
+                    while (numeroCartao.length > 16) {
+                        alert ("Número de cartão inválido");
+                    }                     
+                    while (validadeCartao.length > 4) {
+                        alert ("Validade do cartão inválido");
+                    }    
+                    while (codSegCartao.length > 3) {
+                        alert ("Validade do cartão inválido");
+                    }                
+                    alert(" O valor Total da Compra cartão foi " + valorTotalCompraProdutos)
+                break
+
+                case "P":    
+                    var troco = prompt("É necessário troco? Responda S (SIM) ou N (Não) ? ")
+                    troco = (troco.toUpperCase()) 
+
+                    while ( troco == "S"){
+                        var trocoPergunta = prompt("Quantos reais seria o troco?   ")
+                        alert(troco);
+                    }
+                    
+                    while ( troco > valorTotalCompraProdutos )  {
+                        alert("O valor do troco está maior que o valor total da compra dos produtos ")
+                    }
+                        
+                    alert(" O valor Total da Compra em dinheiro foi" + valorTotalCompraProdutos)
+                        
+                break
+
+                default:
+                alert("Digite um valor válido!")
+            }
+
+
+
+        }
+
+        function produto4() {           
+
+            var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+
+            var valorTotalCompraProdutos = Number(prompt("Digite o valor Total da Compra dos Produtos? "))
+
+            var formaPagamento = prompt("O pagamento será em cartão ou em dinheiro? Responda C (Cartão ou D (dinheiro) ? ")                 
+
+            formaPagamento = (formaPagamento.toUpperCase()) 
+            // método toUpperCase(), o retorno será uma nova string com todos os caracteres convertidos para maiúsculo.
+                
+            if ( formaPagamento == "C"){
+                alert("Você selecionou a forma de pagamento em Cartão")
+                var tipoPagamento = prompt("O pagamento será em online ou presencial? Responda L (Online) ou P (Presencial) ? ")
+                tipoPagamento = (tipoPagamento.toUpperCase()) 
+            }
+            else{
+                alert("Você selecionou a forma de pagamento em Dinheiro")                
+            }
+            switch (tipoPagamento) {
+                case "L":    
+                    var qtdeProdutos =  Number(prompt("Quantos produtos você deseja comprar? "))
+                    var numeroCartao =  Number(prompt("Digite o número do cartão? Informar os 16 números: "))
+                    var validadeCartao =  Number(prompt("Digite a válidade? Informar os 4 números no formato MM/AA: "))
+                    var codSegCartao =  Number(prompt("Digite o código de segurança? Informar os 3 números: "))
+
+                    while (numeroCartao.length > 16) {
+                        alert ("Número de cartão inválido");
+                    }                     
+                    while (validadeCartao.length > 4) {
+                        alert ("Validade do cartão inválido");
+                    }    
+                    while (codSegCartao.length > 3) {
+                        alert ("Validade do cartão inválido");
+                    }                
+                    alert(" O valor Total da Compra cartão foi " + valorTotalCompraProdutos)
+                break
+
+                case "P":    
+                    var troco = prompt("É necessário troco? Responda S (SIM) ou N (Não) ? ")
+                    troco = (troco.toUpperCase()) 
+
+                    while ( troco == "S"){
+                        var trocoPergunta = prompt("Quantos reais seria o troco?   ")
+                        alert(troco);
+                    }
+                    
+                    while ( troco > valorTotalCompraProdutos )  {
+                        alert("O valor do troco está maior que o valor total da compra dos produtos ")
+                    }
+                        
+                    alert(" O valor Total da Compra em dinheiro foi" + valorTotalCompraProdutos)
+                        
+                break
+
+                default:
+                alert("Digite um valor válido!")
+            }
+
+
+
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
+
+<!-- 
+Tarefa 014 - Tarefa final - fazer uma página de padaria. 
+
+A página deverá ter ao menos 5 produtos, com seus respectivos botões de compra. 
+Quando o botão de um produto for clicado, será enviada uma pergunta para saber quantos produtos daquele a pessoa irá comprar, 
+uma pergunta para saber se o pagamento será em cartão ou em dinheiro - se for em cartão, 
+a página perguntará se o pagamento é online ou presencial. 
+Caso seja online, o número do cartão, a data de validade e o código de segurança serão pedidos 
+(cartão máximo 16 caracteres, validade máximo 4 caracteres, código de segurança máximo 3 caracteres. 
+Caso os três requisitos não sejam cumpridos, cartão inválido) - se o pagamento for presencial, 
+a página irá perguntar se é débito ou crédito e retornará depois dizendo que a máquina de débito/crédito será enviada, 
+de acordo com a resposta do usuário. Por fim, se o pagamento for em dinheiro, 
+a página perguntará se é necessário troco - se a resposta for sim (ou true, pelo confirm), 
+deverá perguntar para quantos reais seria o troco, sendo que se o valor for menor que o valor da compra um aviso será disparado. 
+
+Após isso, a página deverá enviar um agradecimento.
+ -->

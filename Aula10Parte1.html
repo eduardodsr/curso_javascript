@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+</head>
+<body>
+    <script>
+            var nome = prompt("Qual é o seu nome? ");
+            alert(nome);
+
+            // o condicional if não atende se usuário deixar nome em branco. Logo, é necessário utilizar um laço condicional while.
+            // if (nome == "") {
+            //    alert("Digite um valor válido");
+            // }
+            // else {
+            //    alert(nome);
+            // }
+
+            while (nome == ""){   // enquanto o nome for vazio, ele vai alert para inserir o nome.
+                alert ("Digite um nome válido!");
+                var nome = prompt("Qual é o seu nome? ");
+            }
+
+    </script>
+
+</body>
+</html>
+
+<!--  
+Uma declaração while executa suas instruções, desde que uma condição especificada seja avaliada como verdadeira. 
+Segue uma declaração while :
+    while (condição)
+      declaração
+
+Se a condição se tornar falsa, a declaração dentro do laço para a execução e o controle é passado para a instrução após o laço.
+O teste da condição ocorre antes que o laço seja executado. 
+Desta forma se a condição for verdadeira o laço executará e testará a condição novamente. 
+Se a condição for falsa o laço termina e passa o controle para as instruções após o laço.
+-->
