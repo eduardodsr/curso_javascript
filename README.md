@@ -33,7 +33,7 @@ JavaScript é uma linguagem de programação criada para ser parte dos navegador
                 
 1. Módulo 0 - Apresentação do Curso (Aula 1)
 2. Módulo I - Comandos Básicos e Variáveis (Aula 2 até 5)
-3. Módulo II - Operadores (Aula 6 e 7
+3. Módulo II - Operadores (Aula 6 e 7)
 4. Módulo III - Condicionais (Aula 8 e 9)
 5. Módulo IV - Estruturas de Repetição (Aulas 10 e 11)
 6. Módulo V - Funções e Eventos (Aula 12)
