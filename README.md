@@ -10,6 +10,9 @@
 
 <https://github.com/eduardodsr/curso_javascript>
 
+![](https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)
+
+
 ### HTML:
 
 HTML é a abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto.
@@ -37,9 +40,6 @@ JavaScript é uma linguagem de programação criada para ser parte dos navegador
 7. Projetos
 8. Tarefas
 
-### Images
-
-![](https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)
 
 #### HTML code
 
