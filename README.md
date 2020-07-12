@@ -16,7 +16,7 @@ HTML é a abreviação para a expressão inglesa HyperText Markup Language, que 
 
 ### CSS:
 
-CSS – Cascading Style Sheets – é um mecanismo para adicionar estilo coo cores, fontes, espaçamento, entre outras a um documento web. Em vez de colocar a formatação dentro do documento, o CSS cria um link para uma página que contém os estilos.
+CSS – Cascading Style Sheets – é um mecanismo para adicionar estilo cores, fontes, espaçamento, entre outras a um documento web. Em vez de colocar a formatação dentro do documento, o CSS cria um link para uma página que contém os estilos.
 
 ### JS:
 
