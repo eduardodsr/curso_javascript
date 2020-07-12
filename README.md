@@ -2,11 +2,11 @@
 
 ### Sobre:
 
-- Nave do Conhecimento - Aprendendo a Programar: JavaScript
+- Nave do Conhecimento - Aprendendo a Programar: JavaScript;
 
-- Linguagnes: HTML | CSS | JS
+- HTML, CSS e Javascript – Entendendo melhor a base da programação Front-End;
 
-- O curso compromete em abordar uma das linguagens de programação perfeitas para quem decide entrar no mundo do desenvolvimento web e quer aprender as bases da programação para ser um programador Web .
+- O curso compromete em abordar uma das linguagens de programação perfeitas para quem decide entrar no mundo do desenvolvimento web e quer aprender as bases da programação para ser um programador Web.
 
 <https://github.com/eduardodsr/curso_javascript>
 
