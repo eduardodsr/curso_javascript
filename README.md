@@ -2,7 +2,7 @@
 
 ### Sobre:
 
-- Nave do Conhecimento - Aprendendo a Programar: JavaScript;
+- Nave do Conhecimento - JavaScript;
 
 - HTML, CSS e Javascript – Entendendo melhor a base da programação Front-End;
 
