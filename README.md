@@ -8,7 +8,6 @@
 
 - O curso compromete em abordar uma das linguagens de programação perfeitas para quem decide entrar no mundo do desenvolvimento web e quer aprender as bases da programação para ser um programador Web.
 
-<https://github.com/eduardodsr/curso_javascript>
 
 ![](https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)
 
@@ -77,5 +76,6 @@ Término: 08/06/2020
 EDUARDO DA SILVA RODRIGUES
 eduardodsr@gmail.com
 
+<https://github.com/eduardodsr/curso_javascript>
 
 ### End
