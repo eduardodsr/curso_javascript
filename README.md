@@ -2,7 +2,7 @@
 
 ### Sobre:
 
-- Nave do Conhecimento - JavaScript;
+- Nave do Conhecimento - JavaScript (Carga Horária de 20 horas;
 
 - HTML, CSS e Javascript – Entendendo melhor a base da programação Front-End;
 
@@ -24,6 +24,14 @@ CSS – Cascading Style Sheets – é um mecanismo para adicionar estilo cores, 
 ### JS:
 
 JavaScript é uma linguagem de programação criada para ser parte dos navegadores web, para que scripts possam ser executados do lado do cliente e interajam com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
+
+
+### Cronograma do Curso Online:
+
+Início: 18/05/2020 
+
+Término: 08/06/2020
+
 
 ### Nave do Conhecimento:
 
@@ -63,9 +71,11 @@ JavaScript é uma linguagem de programação criada para ser parte dos navegador
         confirm ("Olá Mundo");
     </script>
 
-### Proprietário:
+
+### Proprietário do Repositório:
 
 EDUARDO DA SILVA RODRIGUES
 eduardodsr@gmail.com
+
 
 ### End
