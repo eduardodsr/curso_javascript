@@ -2,7 +2,7 @@
 
 ### Sobre:
 
-- Nave do Conhecimento - JavaScript (Carga Horária de 20 horas;
+- Nave do Conhecimento - JavaScript (Carga Horária de 20 horas);
 
 - HTML, CSS e Javascript – Entendendo melhor a base da programação Front-End;
 
