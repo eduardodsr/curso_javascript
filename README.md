@@ -1,5 +1,10 @@
 # Curso de JavaScript
 
+[![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardods/)
+![GitHub repo size](https://img.shields.io/github/repo-size/eduardodsr/curso_javascript)
+![GitHub top language](https://img.shields.io/github/languages/top/eduardodsr/curso_javascript)
+![GitHub language count](https://img.shields.io/github/languages/count/eduardodsr/curso_javascript)
+
 ### Sobre:
 
 - Nave do Conhecimento - JavaScript (Carga Horária de 20 horas);
