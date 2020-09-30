@@ -13,6 +13,9 @@
 
 - O curso compromete em abordar uma das linguagens de programação perfeitas para quem decide entrar no mundo do desenvolvimento web e quer aprender as bases da programação para ser um programador Web.
 
+ <p align="center">
+  <img src=https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)?raw=true" alt="imagem" width="300px" />                                                                            
+ </p>
 
 ![](https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)
 
