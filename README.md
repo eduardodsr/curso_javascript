@@ -5,6 +5,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/eduardodsr/curso_javascript)
 ![GitHub language count](https://img.shields.io/github/languages/count/eduardodsr/curso_javascript)
 
+
 ### Sobre:
 
 - Nave do Conhecimento - JavaScript (Carga Horária de 20 horas);
@@ -16,8 +17,6 @@
  <p align="center">
   <img src=https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)?raw=true" alt="imagem" width="300px" />                                                                            
  </p>
-
-![](https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)
 
 
 ### HTML:
