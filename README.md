@@ -1,4 +1,4 @@
-# Curso de JavaScript
+# JavaScript
 
 [![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardods/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/eduardodsr/curso_javascript)
@@ -7,17 +7,13 @@
 ![Visitor](https://visitor-badge.glitch.me/badge?page_id=eduardodsr.curso_javascript)
 
 
-### Sobre:
-
-- Nave do Conhecimento - JavaScript (Carga Horária de 20 horas);
+## Curso de JavaScript - Nave do Conhecimento:
 
 - HTML, CSS e Javascript – Entendendo melhor a base da programação Front-End;
 
-- O curso compromete em abordar uma das linguagens de programação perfeitas para quem decide entrar no mundo do desenvolvimento web e quer aprender as bases da programação para ser um programador Web.
 
- <p align="center">
-  <img src=https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)?raw=true" alt="imagem" width="300px" />                                                                            
- </p>
+  <p align="center">
+  <img src=https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)?raw=true" alt="imagem" width="300px" />                                                   </p>
 
 
 ### HTML:
@@ -38,6 +34,11 @@ JavaScript é uma linguagem de programação criada para ser parte dos navegador
 Início: 18/05/2020 
 
 Término: 08/06/2020
+
+
+### Carga Horária:
+
+Carga Horária de 20 horas;
 
 
 ### Nave do Conhecimento:
