@@ -1,6 +1,6 @@
 # JavaScript
 
-[![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardods/)
+[![](https://img.shields.io/badge/made_by-eduardodsr-green)](https://github.com/eduardodsr/)
 ![Visitor](https://visitor-badge.glitch.me/badge?page_id=eduardodsr.curso_javascript)
 
 
@@ -25,6 +25,7 @@ CSS – Cascading Style Sheets – é um mecanismo para adicionar estilo cores, 
 
 JavaScript é uma linguagem de programação criada para ser parte dos navegadores web, para que scripts possam ser executados do lado do cliente e interajam com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
 
+**Observaação:** Todas as tarefas e projetos do curso de JavaScript estão num repositório privado!
 
 ### Cronograma do Curso Online:
 
