@@ -8,6 +8,8 @@
 
 - HTML, CSS e Javascript – Entendendo melhor a base da programação Front-End;
 
+**Observação:** Todas as tarefas e projetos desenvolvidas durante o curso de JavaScript estão num repositório privado!
+
 
   <p align="center">
   <img src=https://apexensino.com.br/wp-content/uploads/2017/11/html-css-javascript.jpg)?raw=true" alt="imagem" width="300px" />                                                   </p>
@@ -25,7 +27,7 @@ CSS – Cascading Style Sheets – é um mecanismo para adicionar estilo cores, 
 
 JavaScript é uma linguagem de programação criada para ser parte dos navegadores web, para que scripts possam ser executados do lado do cliente e interajam com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
 
-**Observaação:** Todas as tarefas e projetos do curso de JavaScript estão num repositório privado!
+
 
 ### Cronograma do Curso Online:
 
